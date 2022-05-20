@@ -3,7 +3,6 @@ import styled from 'styled-components/native';
 export const LocationDateContainer = styled.View`
   width: 100%;
   height: 10%;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
