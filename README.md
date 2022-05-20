@@ -1,6 +1,6 @@
-# bankTech
-react native prototipe
+# Climatic Builders
 
-![Peek 21-08-2021 13-25](https://user-images.githubusercontent.com/66836570/130328508-c4eb32d2-5895-4291-89d0-ebdf786f2c53.gif)
-![Peek 21-08-2021 13-19](https://user-images.githubusercontent.com/66836570/130328510-b39c6a71-4c49-4304-afb9-69cbaca507ad.gif)
-
+## tecnologias usadas
+- `React native`
+- 
+![climatic](https://user-images.githubusercontent.com/66836570/169615833-37f7ebe7-ba65-4c9b-b719-052c6b12be31.jpeg)
