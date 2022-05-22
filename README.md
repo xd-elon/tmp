@@ -1,5 +1,9 @@
 # Climatic Builders
 
+## Executar projeto
+ de um git clone + url do projeto e depois um `yarn` ou `npm/npx` para baixar dependencias do projeto
+ use um virtual device ou dispositivo fisico com modo depuração ativado para visualizar o app
+
 ## tecnologias usadas
 - `React-native`
 - `Typescript`
