@@ -8,27 +8,39 @@ import {
   ViewRow,
 } from './styles';
 
-export const DataViewClimatic = () => {
+interface IPropsDaysClimatic {
+  windValue: number | undefined;
+  visibilityValue: number | undefined;
+  humidityValue: number | undefined;
+  airPressureValue: number | undefined;
+}
+
+export const DataViewClimatic = ({
+  windValue,
+  visibilityValue,
+  humidityValue,
+  airPressureValue,
+}: IPropsDaysClimatic) => {
   return (
     <DataContainer>
       <ViewRow>
         <ViewColumn>
           <TitleClimatic>Wind status</TitleClimatic>
-          <TextClimatic>7 mph</TextClimatic>
+          <TextClimatic>{windValue} mph</TextClimatic>
         </ViewColumn>
         <ViewColumn>
           <TitleClimatic>Visibility</TitleClimatic>
-          <TextClimatic>6.4 miles</TextClimatic>
+          <TextClimatic>{visibilityValue} miles</TextClimatic>
         </ViewColumn>
       </ViewRow>
       <ViewRow>
         <ViewColumn>
           <TitleClimatic>Humidity</TitleClimatic>
-          <TextClimatic>85%</TextClimatic>
+          <TextClimatic>{humidityValue} %</TextClimatic>
         </ViewColumn>
         <ViewColumn>
           <TitleClimatic>Air pressure</TitleClimatic>
-          <TextClimatic>998 mb</TextClimatic>
+          <TextClimatic>{airPressureValue} hpa</TextClimatic>
         </ViewColumn>
       </ViewRow>
     </DataContainer>

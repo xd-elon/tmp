@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 
 import IconClound from 'react-native-vector-icons/Feather';
 
@@ -8,15 +8,18 @@ import {
   DaysContainer,
   TextCelcius,
   TextDays,
-  TitleButtonInfo,
   TitleDays,
-  UpdateButton,
   ViewColumn,
   ViewColumnAjust,
   ViewRow,
 } from './styles';
 
-export const DaysClimatic = () => {
+interface IPropsDaysClimatic {
+  days: number;
+  children: ReactNode;
+}
+
+export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
   return (
     <DaysContainer>
       <TitleDays>The Next 5 days</TitleDays>
@@ -61,9 +64,7 @@ export const DaysClimatic = () => {
           </ViewColumn>
         </ViewColumnAjust>
       </ViewRow>
-      <UpdateButton>
-        <TitleButtonInfo>UPDATE INFOS</TitleButtonInfo>
-      </UpdateButton>
+      {children}
     </DaysContainer>
   );
 };

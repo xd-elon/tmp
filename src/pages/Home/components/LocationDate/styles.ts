@@ -10,17 +10,17 @@ export const LocationDateContainer = styled.View`
 `;
 
 export const TextDate = styled.Text`
-  color: #d4d4d4;
+  color: #fff;
   font-size: 15px;
 `;
 
 export const TextLocation = styled.Text`
-  color: #d4d4d4;
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
 `;
 
 export const TextPais = styled.Text`
-  color: #d4d4d4;
+  color: #fff;
   font-size: 20px;
 `;
