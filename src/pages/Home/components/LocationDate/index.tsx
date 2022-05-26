@@ -16,7 +16,7 @@ interface IPropsLocationDate {
 export const LocationDate = ({date, city, country}: IPropsLocationDate) => {
   return (
     <LocationDateContainer>
-      <TextDate>{`Today, ${date === undefined ? 'May' : date}`}</TextDate>
+      <TextDate>{`Today, ${date === undefined ? 'loading' : date}`}</TextDate>
       <TextLocation>{city}</TextLocation>
       <TextPais>{country}</TextPais>
     </LocationDateContainer>

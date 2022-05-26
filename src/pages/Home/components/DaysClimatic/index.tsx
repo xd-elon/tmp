@@ -28,7 +28,7 @@ export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
           <TextDays>Sunday</TextDays>
           <ViewColumn>
             <IconClound name="cloud" size={30} color="#D4D4D4" />
-            <TextCelcius>38 °C</TextCelcius>
+            <TextCelcius>-- °C</TextCelcius>
           </ViewColumn>
         </ViewColumnAjust>
 
@@ -36,7 +36,7 @@ export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
           <TextDays>Monday</TextDays>
           <ViewColumn>
             <IconClound name="cloud" size={30} color="#D4D4D4" />
-            <TextCelcius>38 °C</TextCelcius>
+            <TextCelcius>-- °C</TextCelcius>
           </ViewColumn>
         </ViewColumnAjust>
 
@@ -44,7 +44,7 @@ export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
           <TextDays>Tuesday</TextDays>
           <ViewColumn>
             <IconClound name="cloud" size={30} color="#D4D4D4" />
-            <TextCelcius>38 °C</TextCelcius>
+            <TextCelcius>-- °C</TextCelcius>
           </ViewColumn>
         </ViewColumnAjust>
 
@@ -52,7 +52,7 @@ export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
           <TextDays>Thursday</TextDays>
           <ViewColumn>
             <IconClound name="cloud" size={30} color="#D4D4D4" />
-            <TextCelcius>38 °C</TextCelcius>
+            <TextCelcius>-- °C</TextCelcius>
           </ViewColumn>
         </ViewColumnAjust>
 
@@ -60,7 +60,7 @@ export const DaysClimatic = ({children}: IPropsDaysClimatic) => {
           <TextDays>Friday</TextDays>
           <ViewColumn>
             <IconClound name="cloud" size={30} color="#D4D4D4" />
-            <TextCelcius>38 °C</TextCelcius>
+            <TextCelcius>-- °C</TextCelcius>
           </ViewColumn>
         </ViewColumnAjust>
       </ViewRow>
